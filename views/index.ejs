@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pintrest</title>
+    <link rel='stylesheet' href='../stylesheets/style.css' />
+    <link rel='stylesheet' href='../stylesheets/register.css' />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <!--pinterest logo-->
+        <img src="https://i.pinimg.com/originals/d3/d1/75/d3d175e560ae133f1ed5cd4ec173751a.png" alt="pin logo" class="img1" />
+        <p class="header">Make Account see more</p>
+        <form action="/register" method="post">
+          <input type="email" placeholder="Email" name="email" class="detail" /><br />
+          <input type="text" placeholder="Username" name="username" class="detail" />
+          <input type="text" placeholder="Fullname" name="fullname" class="detail" />
+          <input type="password" placeholder="Password" name="password" class="detail" />
+          <input type="submit" class="btn int" value="Register Account">
+        </form>
+        
+
+        <a href="/forgot">Forgot your password?</a>
+        <p class="or">OR</p>
+        <button class="btn fbk">
+          <i
+            class="fab fa-facebook fa-lg"
+            style="color: white; padding-right: 10px"
+          ></i
+          ><a href="#">Continue with Facebook</a></button
+        ><br />
+        <button class="btn ggl">
+          <i
+            class="fab fa-google"
+            style="color: rgb(11, 241, 22); padding-right: 10px"
+          ></i
+          ><a href="#">Continue with Google</a>
+        </button>
+
+        <footer>
+          <p>
+            By continuing, you agree to Pinterest's
+            <b>Terms of Service, Privacy policy.</b>
+          </p>
+          <hr />
+          <p>Not on Pinterest yet? Sign up</p>
+        </footer>
+      </div>
+    </div>
+    <a href="/login" class="upbtn">Log In</a>
+
+    <script src="../javascripts/script.js"></script>
+  </body>
+</html>
+
+
+
+    <!-- <div id="container">  
+      <div class="mockup">
+        <div class="top">
+          <img class="logo" src="https://www.uplabs.com/logos/uplabs/default--color.svg"/>
+          <ul>
+            <li>Challenges</li>
+            <li>Boards</li>
+            <li class="store">Store</li>
+          </ul>
+          <div class="user_control">
+            <img id="profile_img" src="https://s3.amazonaws.com/assets.materialup.com/users/pictures/000/131/507/thumb/insta_logo.png?1531583275"/>
+            <div id="notifications">
+              <i class="material-icons">notifications</i>
+            </div>
+            <div id="new">New</div>
+          </div>
+        </div>
+        <div class="outer-search">
+          <div class="search-filter">
+          <div class="search-container">
+            <i class="material-icons search-icon"></i>
+            <input type="text" id="search" placeholder="Search"/>
+          </div>
+          <div class="filter">
+            <div class="pill active">For Me</div>
+            <div class="pill">Android</div>
+            <div class="pill">Web</div>
+            <div class="pill">iOS</div>
+            <div class="pill">Branding</div>
+            <div class="pill">3D</div>
+            <i class="material-icons">></i>
+          </div>
+        </div>
+        </div>
+        <div class="feeds" id="feeds">
+          <div class="board s-1">
+            <h1>Board</h1>
+            <div class="card top-challenge">
+              <div class="overlay">
+                <span class="title-card">News App Challenge</span>
+                <p class="card-body">Time to vote for your favorite posts created by the UPLABS community</p>
+                <i class="material-icons forwards">arrow_forward</i>
+              </div>
+            </div>
+            <div class="card list-challenge">
+              <span class="title-card">Active Challenge</span>
+              <div class="challenge-element">
+                <i class="material-icons">access_time</i>
+                <div class="challenge-info">
+                  <h5>Clock App Challenge</h5>
+                  <span class="challengers">131 challengers</span>
+                </div>
+                <div class="vote">Vote</div>
+              </div>
+              <div class="challenge-element">
+                <i class="material-icons">show_chart</i>
+                <div class="challenge-info">
+                  <h5>Analytics Dashboard</h5>
+                  <span class="challengers">150 challengers</span>
+                </div>
+                <div class="vote">Vote</div>
+              </div>
+              <div class="challenge-element">
+                <i class="material-icons">vertical_split</i>
+                <div class="challenge-info">
+                  <h5>News App Challenge</h5>
+                  <span class="challengers">160 challengers</span>
+                </div>
+                <div class="vote">Vote</div>
+              </div>
+              <div class="viewall">View All</div>
+            </div>
+            <div class="card">
+              <span class="title-card">Advert</span>
+              <div class="placeholder" style="width: 250px"></div>
+              <div class="placeholder" style="width: 200px"></div>
+              <div class="placeholder" style="width: 150px"></div>
+              <div class="placeholder" style="width: 180px"></div>
+            </div>
+          </div>
+          <div class="today s-2">
+            <h1>Today</h1>
+            <div class="card">
+              <div class="add"><i class="material-icons">add</i></div>
+              <img src="https://assets.materialup.com/uploads/c486aeec-6646-47a6-a612-1b9f3379bcee/preview.png"/>
+              <div class="card-footer">
+                <div class="card-info">
+                  <h4>Message App</h4>
+                  <span class="card-maker"></span>
+                </div>
+                <span class="costs">FREE</span>
+                <div class="card-vote">
+                  <i class="material-icons up">arrow_drop_up</i>
+                  <span class="upvotes">126</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="add"><i class="material-icons">add</i></div>
+              <img src="https://assets.materialup.com/uploads/f3ff5385-a13d-4336-8146-bcb7b8f3d2f0/preview.jpg"/>
+              <div class="card-footer">
+                <div class="card-info">
+                  <h4>Devils Backbone Mile 842</h4>
+                  <span class="card-maker">Brian Edward Miller</span>
+                </div>
+                <span class="costs"></span>
+                <div class="card-vote">
+                  <i class="material-icons up">arrow_drop_up</i>
+                  <span class="upvotes">199</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="add"><i class="material-icons">add</i></div>
+              <img id="porco" src="https://assets.materialup.com/uploads/6b9a82e5-89e5-41d9-abc5-7bd2291f3a68/preview.png"/>
+              <div class="card-footer">
+                <div class="card-info">
+                  <h4>Oneplus 6T Mockup</h4>
+                  <span class="card-maker">Ayushi Patel</span>
+                </div>
+                <span class="costs">FREE</span>
+                <div class="card-vote">
+                  <i class="material-icons up">arrow_drop_up</i>
+                  <span class="upvotes">56</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="add"><i class="material-icons">add</i></div>
+              <img src="https://assets.materialup.com/uploads/95f83b0c-45bc-435e-8981-980426dc69e8/preview.jpg"/>
+              <div class="card-footer">
+                <div class="card-info">
+                  <h4>Boring Flat Design</h4>
+                  <span class="card-maker">Moh. Zainul Muttaqin</span>
+                </div>
+                <div class="card-vote">
+                  <i class="material-icons up">arrow_drop_up</i>
+                  <span class="upvotes">63</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="add"><i class="material-icons">add</i></div>
+              <img src="https://assets.materialup.com/uploads/da5618d8-56e2-48a2-b9f7-2f94a5c65e4d/teaser.png"/>
+              <div class="card-footer">
+                <div class="card-info">
+                  <h4>Furniture Shop App</h4>
+                  <span class="card-maker">Muhammad Wildan Wari</span>
+                </div>
+                <div class="card-vote">
+                  <i class="material-icons up">arrow_drop_up</i>
+                  <span class="upvotes">18</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="add"><i class="material-icons">add</i></div>
+              <img src="https://assets.materialup.com/uploads/b97ad186-7d63-4d19-a789-1e03e61f9f36/preview.png"/>
+              <div class="card-footer">
+                <div class="card-info">
+                  <h4>City At Night</h4>
+                  <span class="card-maker">Noms Edit (Noman)</span>
+                </div>
+                <span class="costs">FREE</span>
+                <div class="card-vote">
+                  <i class="material-icons up">arrow_drop_up</i>
+                  <span class="upvotes">126</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="add"><i class="material-icons">add</i></div>
+              <img src="https://assets.materialup.com/uploads/d50d86d7-a197-4838-ad33-1d173d98409e/teaser.png"/>
+              <div class="card-footer">
+                <div class="card-info">
+                  <h4>Musicia Web Music App</h4>
+                  <span class="card-maker">Raman Yv ✪</span>
+                </div>
+                <div class="card-vote">
+                  <i class="material-icons up">arrow_drop_up</i>
+                  <span class="upvotes">203</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="add"><i class="material-icons">add</i></div>
+              <img src="https://assets.materialup.com/uploads/c940a00c-5b9d-48f5-990e-c313b1d88ad0/preview.png"/>
+              <div class="card-footer">
+                <div class="card-info">
+                  <h4>Dark Landing Page</h4>
+                  <span class="card-maker">Hadi Hafeez</span>
+                </div>
+                <span class="costs">FREE</span>
+                <div class="card-vote">
+                  <i class="material-icons up">arrow_drop_up</i>
+                  <span class="upvotes">7</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="yesterday s-2">
+            <h1>Yesterday</h1>
+            <div class="card">
+              <div class="add"><i class="material-icons">add</i></div>
+              <img src="https://assets.materialup.com/uploads/75b6c075-0d1a-47c8-81f9-35819d9fa7d0/preview.png"/>
+              <div class="card-footer">
+                <div class="card-info">
+                  <h4>Space Page</h4>
+                  <span class="card-maker">Julien</span>
+                </div>
+                <div class="card-vote">
+                  <i class="material-icons up">arrow_drop_up</i>
+                  <span class="upvotes">194</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="add"><i class="material-icons">add</i></div>
+              <img src="https://assets.materialup.com/uploads/3b22b71e-f03a-4005-a046-e2d177f908a8/teaser.png"/>
+              <div class="card-footer">
+                <div class="card-info">
+                  <h4>Creative Design Agency Header</h4>
+                  <span class="card-maker">Mahir Abrar Akash</span>
+                </div>
+                <span class="costs"></span>
+                <div class="card-vote">
+                  <i class="material-icons up">arrow_drop_up</i>
+                  <span class="upvotes">37</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="add"><i class="material-icons">add</i></div>
+              <img src="https://assets.materialup.com/uploads/20c72095-5bd8-4259-8c27-c5e0b12ebc5d/animated_teaser.gif"/>
+              <div class="card-footer">
+                <div class="card-info">
+                  <h4>Glance Clock Case Study #2</h4>
+                  <span class="card-maker">Halo Lab</span>
+                </div>
+                <span class="costs">FREE</span>
+                <div class="card-vote">
+                  <i class="material-icons up">arrow_drop_up</i>
+                  <span class="upvotes">25</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="add"><i class="material-icons">add</i></div>
+              <img src="https://assets.materialup.com/uploads/64a5e896-5bf2-40b1-bbb3-b96640ab2ad3/teaser.png"/>
+              <div class="card-footer">
+                <div class="card-info">
+                  <h4>Yosemite</h4>
+                  <span class="card-maker">brandnew</span>
+                </div>
+                <div class="card-vote">
+                  <i class="material-icons up">arrow_drop_up</i>
+                  <span class="upvotes">24</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="add"><i class="material-icons">add</i></div>
+              <img src="https://assets.materialup.com/uploads/2917de44-ef35-4229-ad67-2bf73e2290ff/preview.png"/>
+              <div class="card-footer">
+                <div class="card-info">
+                  <h4>Ui Crypto Wallet</h4>
+                  <span class="card-maker">uixNinja</span>
+                </div>
+                <div class="card-vote">
+                  <i class="material-icons up">arrow_drop_up</i>
+                  <span class="upvotes">19</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="add"><i class="material-icons">add</i></div>
+              <img src="https://assets.materialup.com/uploads/302100ce-f92b-46b2-b59a-c88dd012ec25/preview.png"/>
+              <div class="card-footer">
+                <div class="card-info">
+                  <h4>Speed Bike Concept</h4>
+                  <span class="card-maker">Broklin Onjei</span>
+                </div>
+                <span class="costs">FREE</span>
+                <div class="card-vote">
+                  <i class="material-icons up">arrow_drop_up</i>
+                  <span class="upvotes">16</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
